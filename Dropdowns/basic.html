@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Dropdowns</h2>
+  <p>La classe .dropdown viene utilizzata per indicare un menu a discesa.</p>
+  <p>Utilizza la classe .dropdown-menu per creare effettivamente il menu a discesa.</p>
+  <p>Per aprire il menu a discesa, utilizza un pulsante o un collegamento con una classe di .dropdown-toggle 
+      e data-bs-toggle="dropdown".
+  </p>                                       
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Dropdown button
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Link 1</a></li>
+      <li><a class="dropdown-item" href="#">Link 2</a></li>
+      <li><a class="dropdown-item" href="#">Link 3</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
+<!--La classe .dropdown indica un menu a discesa.
+Per aprire il menu a discesa, utilizzare un pulsante o un collegamento con una classe di .dropdown-toggle e 
+l'attributo data-bs-toggle="dropdown".
+Aggiungi la classe .dropdown-menu a un elemento <div> per creare effettivamente il menu a discesa. 
+Quindi aggiungi la classe .dropdown-item a ciascun elemento (link o pulsanti) all'interno del menu a discesa.
+-->
